@@ -1,0 +1,95 @@
+.title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size : 30px;
+    text-align: center;
+}
+a{
+    align-self: center;
+}
+body{
+    background-color : #121212;   
+}
+.container {
+    width: 350px;
+    height: 460px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #d9d9d9;
+    border: 1px solid #dbd9DB;
+}
+img.logo_instagram {
+    align-self: center;
+    width: 175px;
+    margin: 35px 0;
+}
+.input_login {
+    width: 270px;
+    height: 40px;
+    margin: 3px auto;
+    padding: 0 10px;
+    display: block;
+    background-color: #fafafa;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.input_login::placeholder {
+    font-size: 12px;
+    color: #8e8e8e;    
+}
+.input_login:focus {
+    border: 1px solid #8a8a8a;
+    outline: none;
+}
+#btn_login {
+    width: 268px;
+    height: 30px;
+    margin: 13px auto;
+    align-self: center;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+#btn_login:disabled {
+    background-color: #B9DFFC;
+}
+#btn_login:disabled:hover {
+    cursor: default;
+}
+#btn_login:enabled:hover {
+    cursor: pointer;
+}
+#btn_login:focus {
+    outline: none;
+}
+a {
+    cursor: default;
+}
+.newarray{
+    align-self: center;
+    margin-top: 70px;
+}
+.button_new {
+    color : #00366B;
+    align-self: center;
+    font-size: 12px;
+  
+}
+.button_new:hover {
+    cursor: pointer;
+}
+.button_forgot {
+    color : #00366B;
+    align-self: center;
+    font-size: 12px;
+    margin-top: 70px;
+}
+.button_forgot:hover {
+    cursor: pointer;
+}

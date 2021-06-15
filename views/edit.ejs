@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Update Page
+    </title>
+    <style>
+        a {
+            align-self: center;
+        }
+
+        body {
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Update Page</h1>
+    <hr>
+    <form method="post">
+        <fieldset>
+            <legend>Update Data</legend>
+            <table>
+                <tr>
+                    <td><label>id</label></td>
+                    <td><input type="text" name="id" value="<%= data.id %>" disabled /></td>
+                </tr>
+                <tr>
+                    <td><label>이름</label></td>
+                    <td><input type="text" name="name" value="<%= data.name %>" /></td>
+                </tr>
+                <tr>
+                    <td><label>그룹</label></td>
+                    <td><input type="text" name="modelnumber" value="<%= data.modelnumber %>" /></td>
+                </tr>
+                <tr>
+                    <td><label>나이</label></td>
+                    <td><input type="text" name="series" value="<%= data.series %>" /></td>
+                </tr>
+            </table>
+            <input type="submit" />
+        </fieldset>
+    </form>
+</body>
+
+</html>
